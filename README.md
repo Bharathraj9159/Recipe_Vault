@@ -6,7 +6,7 @@ It allows users to explore recipes, filter by categories, search meals, and save
 
 # Check Recipe Vault Site
 
-Link : [[https://recipevaultassesment.netlify.app/login](https://recipe-vault-task-1.netlify.app/login)](https://recipe-vault-task-1.netlify.app/login)
+Link : https://recipe-vault-task-1.netlify.app
 ---
 
 # Screen_Shots
