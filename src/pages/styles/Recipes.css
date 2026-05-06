@@ -1,0 +1,65 @@
+/*  RECIPES PAGE  */
+
+h1 {
+  font-size: 26px;
+  margin-bottom: 16px;
+  color: #111827;
+}
+
+/* Search input section */
+.search {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: 14px;
+  border: 1px solid #ffd7ac;
+  font-size: 14px;
+  margin-bottom: 24px;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* Loading  */
+p {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.no-results {
+  margin-top: 48px;
+  text-align: center;
+  color: #6b7280;
+}
+
+
+/* ******************************************************* */
+/*  MOBILE VIEW  */
+
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 22px;
+    margin-bottom: 12px;
+  }
+
+  .search {
+    padding: 12px 14px;
+    border-radius: 12px;
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+
+  /*grid for one card view in mobile*/
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .no-results {
+    margin-top: 32px;
+  }
+}
