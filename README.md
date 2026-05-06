@@ -22,7 +22,7 @@ It allows users to explore recipes, filter by categories, search meals, and save
 - **Frontend:** React
 - **Routing:** React Router DOM
 - **State Management:** React Context API
-- **Styling:** CSS (Custom responsive styles)
+- **Styling:** CSS 
 - **Icons:** React Icons
 - **API:** [TheMealDB](https://www.themealdb.com)
 
@@ -41,10 +41,11 @@ It allows users to explore recipes, filter by categories, search meals, and save
 ---
 
 ## 📂 Project Structure
-``text
 src/
 │
 ├─ components/
+│  ├─ AppLayout.jsx
+│  ├─ ProtectedRoute.jsx
 │  ├─ Sidebar.jsx
 │  ├─ RecipeCard.jsx
 │  └─ styles/
@@ -52,18 +53,28 @@ src/
 │
 ├─ pages/
 │  ├─ Recipes.jsx
-│  ├─ Favorites.jsx
+│  ├─ Login.jsx
+│  ├─ Logout.jsx
+│  ├─ RecipeDetail.jsx
+│  ├─ Recipes.jsx
 │  └─ styles/
-│     └─ Recipes.css
-│
+│    ├─ Favorites.module.css
+│    ├─ Login.css
+│    ├─ RecipeDetails.css
+│    ├─ Setting.module.css
+│    └─ Recipes.css
+|
 ├─ context/
 │  ├─ FavoritesContext.jsx
 │  └─ AuthContext.jsx
+|
+|
+├─ hooks
+│  └─ useLocalSTorage.js
 │
 ├─ index.css
 ├─ App.jsx
 └─ main.jsx
-
 
 ### Password Credentials for login
 
