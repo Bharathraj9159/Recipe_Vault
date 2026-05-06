@@ -41,7 +41,7 @@ It allows users to explore recipes, filter by categories, search meals, and save
 ---
 
 ## 📂 Project Structure
-
+``text
 src/
 │
 ├─ components/
@@ -67,8 +67,8 @@ src/
 
 ### Password Credentials for login
 
-Email: bharath@cognizant.com
-Password: 12345
+Email: bharath@demo.com
+Password: cook123
 
 
 Link for rep: https://github.com/Bharathraj9159/Recipe_Vault
